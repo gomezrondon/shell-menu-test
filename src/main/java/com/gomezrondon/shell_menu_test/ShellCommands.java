@@ -35,15 +35,20 @@ public class ShellCommands {
     @ShellMethod(key = "menu", value = "Display available menu options")
     public String menu() {
         StringBuilder menu = new StringBuilder();
-        menu.append("\n=== MENU OPTIONS ===\n");
-        menu.append("1) Logging - Demonstrates logging functionality\n");
-        menu.append("2) Printing - Demonstrates printing functionality\n");
-        menu.append("3) Saving - Demonstrates saving functionality\n");
-        menu.append("4) Loading - Demonstrates loading functionality\n");
-        menu.append("5) Search - Demonstrates search functionality\n");
-        menu.append("menu) Display this menu\n");
-        menu.append("cls) Clear the terminal screen\n");
-        menu.append("exit) Exit the application\n");
+        menu.append("+==============================================================================+\n");
+        menu.append("|                                                                              |\n");
+        menu.append("|                             === MENU OPTIONS ===                             |\n");
+        menu.append("|                                                                              |\n");
+        menu.append("|  1) Logging - Demonstrates logging functionality                             |\n");
+        menu.append("|  2) Printing - Demonstrates printing functionality                           |\n");
+        menu.append("|  3) Saving - Demonstrates saving functionality                               |\n");
+        menu.append("|  4) Loading - Demonstrates loading functionality                             |\n");
+        menu.append("|  5) Search - Demonstrates search functionality                               |\n");
+        menu.append("|  menu) Display this menu                                                     |\n");
+        menu.append("|  cls) Clear the terminal screen                                              |\n");
+        menu.append("|  exit) Exit the application                                                  |\n");
+        menu.append("|                                                                              |\n");
+        menu.append("+==============================================================================+\n");
         return menu.toString();
     }
 

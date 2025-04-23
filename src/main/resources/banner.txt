@@ -1,16 +1,24 @@
- _____  _   _  _____  _      _        __  __  _____  _   _  _   _ 
-|_   _|| | | || ____|| |    | |      |  \/  || ____|| \ | || | | |
-  | |  | |_| ||  _|  | |    | |      | |\/| ||  _|  |  \| || | | |
-  | |  |  _  || |___ | |___ | |___   | |  | || |___ | |\  || |_| |
-  |_|  |_| |_||_____||_____||_____|  |_|  |_||_____||_| \_| \___/ 
-                                                                  
-=== MENU OPTIONS ===
-1) Logging - Demonstrates logging functionality
-2) Printing - Demonstrates printing functionality
-3) Saving - Demonstrates saving functionality
-4) Loading - Demonstrates loading functionality
-5) Search - Demonstrates search functionality
-menu) Display this menu
-exit) Exit the application
++==============================================================================+
+|                                                                              |
+|  _____  _   _  _____  _      _        __  __  _____  _   _  _   _           |
+| |_   _|| | | || ____|| |    | |      |  \/  || ____|| \ | || | | |          |
+|   | |  | |_| ||  _|  | |    | |      | |\/| ||  _|  |  \| || | | |          |
+|   | |  |  _  || |___ | |___ | |___   | |  | || |___ | |\  || |_| |          |
+|   |_|  |_| |_||_____||_____||_____|  |_|  |_||_____||_| \_| \___/           |
+|                                                                              |
++==============================================================================+
+|                                                                              |
+|                             === MENU OPTIONS ===                             |
+|                                                                              |
+|  1) Logging - Demonstrates logging functionality                             |
+|  2) Printing - Demonstrates printing functionality                           |
+|  3) Saving - Demonstrates saving functionality                               |
+|  4) Loading - Demonstrates loading functionality                             |
+|  5) Search - Demonstrates search functionality                               |
+|  menu) Display this menu                                                     |
+|  cls) Clear the terminal screen                                              |
+|  exit) Exit the application                                                  |
+|                                                                              |
++==============================================================================+
 
 Type 'menu' to display this menu again.
